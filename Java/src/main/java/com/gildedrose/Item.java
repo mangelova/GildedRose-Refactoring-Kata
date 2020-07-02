@@ -8,6 +8,8 @@ public class Item {
 
     public int quality;
 
+    public Item() {};
+
     public Item(String name, int sellIn, int quality) {
         this.name = name;
         this.sellIn = sellIn;
@@ -18,4 +20,6 @@ public class Item {
    public String toString() {
         return this.name + ", " + this.sellIn + ", " + this.quality;
     }
+
+    void update() {};
 }
